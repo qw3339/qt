@@ -18,6 +18,12 @@ public:
 private slots:
     void on_pushButtonOpen_clicked();
 
+    void on_horizontalSliderVolum_valueChanged(int value);
+
+    void on_durationChanged(qint64 duration);
+
+
+
 private:
     Ui::Widget *ui;
 
